@@ -11,6 +11,7 @@ import SwiftData
 @Model
 final class Friend {
     var name: String
+    var favoriteMovie: Movie?
     
     init(name: String) {
         self.name = name
